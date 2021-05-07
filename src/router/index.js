@@ -12,6 +12,11 @@ const routes = [
     name: 'Lesson 1',
     component: () => import('../views/lesson-1/Index.vue'),
   },
+  {
+    path: '/lesson-2',
+    name: 'Lesson 2',
+    component: () => import('../views/lesson-2/Index.vue'),
+  },
 ];
 
 const router = createRouter({
